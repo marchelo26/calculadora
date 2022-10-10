@@ -49,11 +49,7 @@ function operaciones(op)
                     var resultado = ops.restar(operandos[0], operandos[1]);
                     document.getElementById("resultado").value = resultado;
                     break;
-                case 'multiplicacion':
-                    var operandos = operacion.split("*");
-                    var resultado = ops.multiplicar(operandos[0], operandos[1]);
-                    document.getElementById("resultado").value = resultado;
-                    break;
+ 
                 case 'division':
                     var operandos = operacion.split("/");
                     var resultado = ops.dividir(operandos[0], operandos[1]);
